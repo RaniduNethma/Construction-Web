@@ -130,3 +130,81 @@ header {
   background: #5b8db8;
   color: white;
 }
+
+/* Building Company Section */
+
+.building-company {
+  background-image: url("./images/CompanySectionImages/building-company-image.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+
+  text-align: center;
+  padding: 4rem 15%;
+  color: white;
+}
+
+.section-title {
+  font-size: 4rem;
+  margin-bottom: 0.5rem;
+}
+
+.section-subtitle {
+  font-style: italic;
+  font-size: 1.3rem;
+  margin-bottom: 3rem;
+  opacity: 0.95;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto 3rem;
+}
+
+.service-card {
+  background: white;
+  padding: 3rem 2rem;
+  text-align: center;
+}
+
+.service-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin: 0 auto 1.5rem;
+  overflow: hidden;
+}
+
+.service-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.service-title {
+  color: #333;
+  font-size: 1.2rem;
+  font-style: italic;
+}
+
+.btn-outline button {
+  border: 2px solid white;
+  color: white;
+  background: transparent;
+  display: inline-block;
+  padding: 1rem 2.5rem;
+  text-decoration: none;
+  text-align: center;
+  letter-spacing: 2px;
+  font-size: 0.9rem;
+  transition: all 0.3s;
+}
+
+.btn-outline button:hover {
+  background: white;
+  color: #5b8db8;
+}
