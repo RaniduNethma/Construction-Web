@@ -129,6 +129,7 @@ header {
 .btn button:hover {
   background: #5b8db8;
   color: white;
+  cursor: pointer;
 }
 
 /* Building Company Section */
@@ -207,4 +208,105 @@ header {
 .btn-outline button:hover {
   background: white;
   color: #5b8db8;
+  cursor: pointer;
+}
+
+/* General Contracting Section */
+
+.general-contracting {
+  flex: 1;
+  position: relative;
+  min-height: 500px;
+  padding: 4rem 5%;
+}
+
+.circle-img {
+  clip-path: circle(40%);
+}
+
+.Contracting-section-001 {
+  width: 500px;
+  height: 400px;
+  flex: 1;
+  padding: 0 1.5%;
+  transform: translateX(180%) translateY(5%);
+}
+
+.Contracting-section-001 h2 {
+  color: #888;
+  font-size: 3rem;
+  text-align: center;
+  transform: scale(1, 1.2);
+  margin-bottom: 1.5rem;
+}
+
+.Contracting-section-001 p {
+  color: #666;
+  font-size: 1.2rem;
+  line-height: 1.8;
+  margin-bottom: 2rem;
+}
+
+.Contracting-button button {
+  display: inline-block;
+  padding: 1rem 2.5rem;
+  border: 2px solid #ffd700;
+  background-color: #ffd700;
+  color: black;
+  text-decoration: none;
+  text-align: center;
+  letter-spacing: 2px;
+  font-size: 0.9rem;
+  transition: all 0.3s;
+  margin-bottom: 1.5rem;
+}
+
+.Contracting-button button:hover {
+  background: #daba02;
+  color: black;
+  cursor: pointer;
+}
+
+.Contracting-section-002 {
+  width: 500px;
+  height: 350px;
+  flex: 1;
+  transform: translateX(80%) translateY(-100%);
+}
+
+.Contracting-section-003 img {
+  width: 500px;
+  height: auto;
+  transform: translateX(30%) translateY(-90%);
+}
+
+.Contracting-section-004 img {
+  width: 550px;
+  height: auto;
+  transform: translateX(15%) translateY(-210%);
+}
+
+.Contracting-section-005 img {
+  width: 800px;
+  height: auto;
+  transform: translateX(35%) translateY(-200%);
+}
+
+.circle-yellow {
+}
+
+.circle-yellow img {
+  width: 250px;
+  height: auto;
+  transform: translateX(330%) translateY(-600%);
+}
+
+.circle-ash {
+  transform: translateY(-750%);
+}
+
+.circle-ash img {
+  width: 200px;
+  height: auto;
+  transform: translateX(550%);
 }
