@@ -129,4 +129,184 @@ header {
 .btn button:hover {
   background: #5b8db8;
   color: white;
+  cursor: pointer;
+}
+
+/* Building Company Section */
+
+.building-company {
+  background-image: url("./images/CompanySectionImages/building-company-image.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+
+  text-align: center;
+  padding: 4rem 15%;
+  color: white;
+}
+
+.section-title {
+  font-size: 4rem;
+  margin-bottom: 0.5rem;
+}
+
+.section-subtitle {
+  font-style: italic;
+  font-size: 1.3rem;
+  margin-bottom: 3rem;
+  opacity: 0.95;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto 3rem;
+}
+
+.service-card {
+  background: white;
+  padding: 3rem 2rem;
+  text-align: center;
+}
+
+.service-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin: 0 auto 1.5rem;
+  overflow: hidden;
+}
+
+.service-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.service-title {
+  color: #333;
+  font-size: 1.2rem;
+  font-style: italic;
+}
+
+.btn-outline button {
+  border: 2px solid white;
+  color: white;
+  background: transparent;
+  display: inline-block;
+  padding: 1rem 2.5rem;
+  text-decoration: none;
+  text-align: center;
+  letter-spacing: 2px;
+  font-size: 0.9rem;
+  transition: all 0.3s;
+}
+
+.btn-outline button:hover {
+  background: white;
+  color: #5b8db8;
+  cursor: pointer;
+}
+
+/* General Contracting Section */
+
+.general-contracting {
+  flex: 1;
+  position: relative;
+  min-height: 500px;
+  padding: 4rem 5%;
+}
+
+.circle-img {
+  clip-path: circle(40%);
+}
+
+.Contracting-section-001 {
+  width: 500px;
+  height: 400px;
+  flex: 1;
+  padding: 0 1.5%;
+  transform: translateX(180%) translateY(5%);
+}
+
+.Contracting-section-001 h2 {
+  color: #888;
+  font-size: 3rem;
+  text-align: center;
+  transform: scale(1, 1.2);
+  margin-bottom: 1.5rem;
+}
+
+.Contracting-section-001 p {
+  color: #666;
+  font-size: 1.2rem;
+  line-height: 1.8;
+  margin-bottom: 2rem;
+}
+
+.Contracting-button button {
+  display: inline-block;
+  padding: 1rem 2.5rem;
+  border: 2px solid #ffd700;
+  background-color: #ffd700;
+  color: black;
+  text-decoration: none;
+  text-align: center;
+  letter-spacing: 2px;
+  font-size: 0.9rem;
+  transition: all 0.3s;
+  margin-bottom: 1.5rem;
+}
+
+.Contracting-button button:hover {
+  background: #daba02;
+  color: black;
+  cursor: pointer;
+}
+
+.Contracting-section-002 {
+  width: 500px;
+  height: 350px;
+  flex: 1;
+  transform: translateX(80%) translateY(-100%);
+}
+
+.Contracting-section-003 img {
+  width: 500px;
+  height: auto;
+  transform: translateX(30%) translateY(-90%);
+}
+
+.Contracting-section-004 img {
+  width: 550px;
+  height: auto;
+  transform: translateX(15%) translateY(-210%);
+}
+
+.Contracting-section-005 img {
+  width: 800px;
+  height: auto;
+  transform: translateX(35%) translateY(-200%);
+}
+
+.circle-yellow {
+}
+
+.circle-yellow img {
+  width: 250px;
+  height: auto;
+  transform: translateX(330%) translateY(-600%);
+}
+
+.circle-ash {
+  transform: translateY(-750%);
+}
+
+.circle-ash img {
+  width: 200px;
+  height: auto;
+  transform: translateX(550%);
 }
