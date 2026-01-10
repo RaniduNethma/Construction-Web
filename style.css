@@ -218,6 +218,7 @@ header {
   position: relative;
   min-height: 500px;
   padding: 4rem 5%;
+  max-height: 1200px;
 }
 
 .circle-img {
@@ -274,31 +275,51 @@ header {
   transform: translateX(80%) translateY(-100%);
 }
 
+.Contracting-section-003 {
+  width: 500px;
+  height: auto;
+  transform: translateY(-90%);
+}
+
 .Contracting-section-003 img {
   width: 500px;
   height: auto;
-  transform: translateX(30%) translateY(-90%);
+  transform: translateX(30%);
+}
+
+.Contracting-section-004 {
+  width: 550px;
+  height: auto;
+  transform: translateY(-210%);
 }
 
 .Contracting-section-004 img {
   width: 550px;
   height: auto;
-  transform: translateX(15%) translateY(-210%);
+  transform: translateX(15%);
+}
+
+.Contracting-section-005 {
+  width: 800px;
+  height: auto;
+  transform: translateY(-200%);
 }
 
 .Contracting-section-005 img {
   width: 800px;
   height: auto;
-  transform: translateX(35%) translateY(-200%);
+  transform: translateX(35%);
 }
 
 .circle-yellow {
+  width: 250px;
+  height: auto;
+  transform: translateX(330%) translateY(-600%);
 }
 
 .circle-yellow img {
   width: 250px;
   height: auto;
-  transform: translateX(330%) translateY(-600%);
 }
 
 .circle-ash {
