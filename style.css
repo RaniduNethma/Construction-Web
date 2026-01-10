@@ -70,7 +70,6 @@ header {
 
 .hero-subtitle {
   color: #888;
-  letter-spacing: 3px;
   font-size: 1.2rem;
   font-weight: 450;
   text-align: center;
@@ -330,4 +329,60 @@ header {
   width: 200px;
   height: auto;
   transform: translateX(550%);
+}
+
+/* Future Together Section */
+
+.future-together {
+  background: #e8e8e8;
+  padding: 5rem 5%;
+  text-align: center;
+}
+
+.future-together h2 {
+  color: #4e7da5;
+  font-size: 3rem;
+  font-weight: 800;
+  margin-bottom: 3rem;
+  line-height: 4rem;
+}
+
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 3rem 5rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.feature-item {
+  display: flex;
+  align-items: flex-start;
+  text-align: left;
+  gap: 1rem;
+}
+
+.checkmark {
+  color: #4e7da5;
+  font-family: system-ui, "Helvetica Neue", sans-serif;
+  font-size: 5rem;
+  line-height: 1;
+  font-weight: 300;
+}
+
+.feature-content h3 {
+  color: #333;
+  font-size: 1.2rem;
+  font-weight: 450;
+  transform: scale(1, 1.2);
+  letter-spacing: 0.1em;
+  margin-bottom: 0.5rem;
+  text-transform: uppercase;
+  padding-left: 0.5rem;
+}
+
+.feature-content p {
+  color: #666;
+  line-height: 1.6;
+  font-size: 1.2rem;
 }
