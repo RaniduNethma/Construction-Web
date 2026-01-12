@@ -477,19 +477,30 @@ header {
 /* Foundation Section */
 
 .foundation-section {
+  flex: 1;
+  position: relative;
+  min-height: 500px;
+  padding: 4rem 5%;
+  max-height: 1200px;
+}
+
+.circle-image {
+  clip-path: circle(40%);
+}
+
+.foundation-content-details-box {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 4rem 5%;
 }
 
 .foundation-content-area {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: center;
   width: 700px;
+  height: auto;
+  flex: 1;
+  padding: 0 1.5%;
+  text-align: center;
 }
 
 .foundation-content-area h2 {
@@ -506,47 +517,38 @@ header {
   line-height: 1.3;
 }
 
-.image-area {
-  max-height: 800px;
-  position: relative;
-}
-
-.circle-image {
-  clip-path: circle(40%);
-}
-
 .foundation-img-01 {
-  width: 350px;
+  width: 300px;
   height: auto;
-  transform: translateX(120%) translateY(5%);
+  transform: translateX(150%) translateY(10%);
 }
 
 .foundation-img-02 {
   width: 300px;
   height: auto;
-  transform: translateX(200%) translateY(120%);
+  transform: translateX(320%) translateY(20%);
 }
 
 .foundation-img-03 {
   width: 200px;
   height: auto;
-  transform: translateX(-200%) translateY(160%);
+  transform: translateX(150%) translateY(-30%);
 }
 
 .foundation-img-04 {
-  transform: translateX(50%) translateY(-40%);
+  transform: translateX(50%) translateY(-100%);
 }
 
 .foundation-img-05 {
   width: 500px;
   height: auto;
-  transform: translateX(-120%) translateY(-190%);
+  transform: translateX(40%) translateY(-400%);
 }
 
 .foundation-img-06 {
   width: 250px;
   height: auto;
-  transform: translateX(-130%) translateY(-150%);
+  transform: translateX(370%) translateY(-600%);
 }
 
 /* Architecture Section */
