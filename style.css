@@ -727,3 +727,138 @@ header {
 }
 
 /* Contact Us Section */
+
+.contact-us-background-area {
+  position: relative;
+  z-index: 0;
+}
+
+.contact-us-black-background {
+  width: 100%;
+  height: 400px;
+  margin: 0;
+  background-color: #292d33;
+}
+
+.contact-us-yellow-background {
+  width: 100%;
+  height: 400px;
+  margin: 0;
+  background-color: #ffd700;
+}
+
+.contact-us-content-area {
+  position: absolute;
+  z-index: 1;
+  padding: 5rem 15%;
+  width: 100%;
+}
+
+.contact-us-box {
+  display: flex;
+  background-color: white;
+  width: 100%;
+}
+
+.form-area {
+  flex: 1;
+  padding: 2rem 5%;
+  width: 100%;
+}
+
+.contact-us-details-area {
+  flex: 1;
+  padding: 2rem 5%;
+  width: 100%;
+}
+
+.form-area ::placeholder {
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-size: 1.2rem;
+  width: 100%;
+}
+
+.form-area input[type="text"] {
+  padding: 12px;
+  margin: 10px 0;
+  box-sizing: border-box;
+  border: 0;
+  border-bottom: 2px solid black;
+  width: 100%;
+  height: 5rem;
+}
+
+.form-area textarea {
+  padding: 12px;
+  margin: 10px 0;
+  box-sizing: border-box;
+  border: 0;
+  border-bottom: 2px solid black;
+  width: 100%;
+  height: 10rem;
+}
+
+.form-submit button {
+  display: inline-block;
+  padding: 1rem 2.5rem;
+  border: 2px solid #ffd700;
+  background-color: #ffd700;
+  color: black;
+  text-decoration: none;
+  text-align: center;
+  letter-spacing: 2px;
+  font-size: 0.9rem;
+  margin-bottom: 1.5rem;
+  transition: all 0.3s;
+}
+
+.form-submit button:hover {
+  background: #5b8db8;
+  border: 2px solid #5b8db8;
+  color: white;
+  cursor: pointer;
+}
+
+.contact-us-details-area p {
+  color: #888;
+  font-size: 1.2rem;
+  font-weight: 450;
+  transform: scale(1, 1.2);
+  letter-spacing: 0.1em;
+  padding-bottom: 1rem;
+}
+
+.contact-us-email-address {
+  padding-bottom: 2rem;
+}
+
+.contact-us-email-address a {
+  color: #5b8db8;
+  font-size: 1.2rem;
+  font-weight: 450;
+  transform: scale(1, 1.2);
+  letter-spacing: 0.1em;
+}
+
+.contact-us-details-area h1 {
+  color: #4d4d4d;
+  font-size: 2rem;
+  font-weight: 800;
+  transform: scale(1, 1.2);
+  letter-spacing: 0.1em;
+  padding-bottom: 1rem;
+}
+
+.social-media-icons {
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+.social-media-icons a {
+  padding-right: 10px;
+}
+
+.social-media-icons a img {
+  width: 40px;
+  height: 40px;
+}
