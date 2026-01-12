@@ -818,3 +818,47 @@ header {
   color: white;
   cursor: pointer;
 }
+
+.contact-us-details-area p {
+  color: #888;
+  font-size: 1.2rem;
+  font-weight: 450;
+  transform: scale(1, 1.2);
+  letter-spacing: 0.1em;
+  padding-bottom: 1rem;
+}
+
+.contact-us-email-address {
+  padding-bottom: 2rem;
+}
+
+.contact-us-email-address a {
+  color: #5b8db8;
+  font-size: 1.2rem;
+  font-weight: 450;
+  transform: scale(1, 1.2);
+  letter-spacing: 0.1em;
+}
+
+.contact-us-details-area h1 {
+  color: #4d4d4d;
+  font-size: 2rem;
+  font-weight: 800;
+  transform: scale(1, 1.2);
+  letter-spacing: 0.1em;
+  padding-bottom: 1rem;
+}
+
+.social-media-icons {
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+.social-media-icons a {
+  padding-right: 10px;
+}
+
+.social-media-icons a img {
+  width: 40px;
+  height: 40px;
+}
