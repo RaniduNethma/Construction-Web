@@ -41,11 +41,6 @@ header {
   background: #333;
 }
 
-.page-one {
-  display: flex;
-  justify-content: space-between;
-}
-
 /* Hero Section */
 
 .hero {
@@ -735,14 +730,14 @@ header {
 
 .contact-us-black-background {
   width: 100%;
-  height: 400px;
+  height: 350px;
   margin: 0;
   background-color: #292d33;
 }
 
 .contact-us-yellow-background {
   width: 100%;
-  height: 400px;
+  height: 250px;
   margin: 0;
   background-color: #ffd700;
 }
@@ -750,7 +745,7 @@ header {
 .contact-us-content-area {
   position: absolute;
   z-index: 1;
-  padding: 5rem 15%;
+  padding: 1rem 15%;
   width: 100%;
 }
 
@@ -861,4 +856,27 @@ header {
 .social-media-icons a img {
   width: 40px;
   height: 40px;
+}
+
+footer {
+  background: #292d33;
+  padding: 1.5rem 15%;
+}
+
+.pages-and-logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+}
+
+.creater {
+  color: #e8e8e8;
+  display: flex;
+  justify-content: center;
+}
+
+.pages a {
+  color: #e8e8e8;
+  padding-right: 10px;
 }
